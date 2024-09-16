@@ -1,0 +1,124 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+p,
+span,
+div,
+h1,
+h3 {
+  background-color: transparent;
+}
+.header-stuff {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.elem {
+  padding: 4px;
+  text-decoration: none;
+}
+.elem:hover {
+  color: gray;
+}
+.movie-container {
+  position: relative;
+  /* text-align: center; */
+  background-color: transparent;
+}
+.texter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: transparent;
+  align-items: start;
+  position: absolute;
+  top: 200px;
+  left: 16px;
+  text-shadow: 2px 2px gray;
+}
+.texter:hover {
+  /* on all the texts over the image */
+  text-shadow: 4px 4px black;
+}
+
+.title,
+.more-deets,
+.overview {
+  background-color: transparent;
+}
+.more-deets {
+  display: flex;
+  padding-right: 8px;
+}
+.deets {
+  font-size: 20px;
+  background-color: transparent;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.overview {
+  font-size: 30px;
+  text-align: left;
+  overflow: hidden;
+}
+.star {
+  background-color: transparent;
+}
+.card-container {
+  height: 300px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 20px;
+  position: relative;
+}
+.format {
+  position: absolute;
+  top: 150px;
+  left: 16px;
+  background-color: transparent;
+}
+.card-img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.card-container:hover {
+  transform: scale(1.05);
+}
+.list-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.parent {
+  width: 100%;
+  position: relative;
+}
+.poster {
+  width: 200px;
+  object-fit:cover;
+  box-shadow: 0 0 20px gray;
+}
+.child {
+  background-color: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  box-shadow: inset;
+  display: flex;
+
+  /* justify-content: space-between; */
+}
+.content {
+  padding-left: 40px;
+  background-color: transparent;
+}
+.genres {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 4px;
+}
